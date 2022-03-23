@@ -6,7 +6,7 @@
 	- create codePipe Line for the deployment of lambda and Api gateway.
 	- Find the example for develop the samTemplate file.
 		
-		## samTemplate.yaml file Template 
+## samTemplate.yaml file Template 
 		
 		
 			AWSTemplateFormatVersion : '2010-09-09'
