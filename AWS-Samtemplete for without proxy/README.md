@@ -1,4 +1,4 @@
-# Sam-Template for deploy Lambda and Reat-API without proxy 
+# Sam-Template for deploy Lambda and Rest-API (POST method) without proxy 
 	- create samTemplate.yaml file in project root directory.
 		- make sure indentation should be correct.
 		- file name should be same as given or if you change the template name, make sure it is uplated in buildspec file.
@@ -6,7 +6,7 @@
 	- create codePipe Line for the deployment of lambda and Api gateway.
 	- Find the example for develop the samTemplate file.
 		
-## samTemplate.yaml file Template 
+## samTemplate.yaml file Template (POST method)
 		
 		
 			AWSTemplateFormatVersion : '2010-09-09'
