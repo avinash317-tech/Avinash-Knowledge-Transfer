@@ -4,9 +4,9 @@
 		
 		 url  // api endpoint
 		 payload  // request body to pass
-		method  // HTTP method (like POST, GET, ....)
-		contentType // format in which request passed
-		flagForPayloy // true for payload(POST) and false for without payload....
+		method  // HTTP method (like POST, GET, PUT, ....)
+		contentType // format in which request passed (like application/JSON, application/xml, .......)
+		flagForPayload // true for payload(POST) and false for without payload....
 		
 		ex:- 
 		
