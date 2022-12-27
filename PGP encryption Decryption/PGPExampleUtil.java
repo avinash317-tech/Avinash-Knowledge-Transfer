@@ -1,5 +1,3 @@
-package com.amazonaws.orcaleutility;
-
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
