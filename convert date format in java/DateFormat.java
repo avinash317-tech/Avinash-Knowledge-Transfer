@@ -1,3 +1,6 @@
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+
 public String dateConverter(String date, String dateFormat, String convertedDateFormat) throws ParseException  {
 	SimpleDateFormat utcFormatter = new SimpleDateFormat(dateFormat);
 	utcFormatter.setTimeZone(TimeZone.getTimeZone("UTC"));
