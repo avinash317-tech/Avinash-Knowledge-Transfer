@@ -36,10 +36,12 @@
 	      
 		try {
 			CsvListReader csvReader = new CsvListReader(new InputStreamReader(inputStream, "UTF-8"),PIPE_DELIMITED);
-			//Read CSV Header
+			//Read CSV Header, this is file contain header
 		    List<String> header = new ArrayList<String>(csvReader.read());		
 		    System.out.println("header : "+header);
+			//this validation is used to validate the expected header 
 		    if(!(requiredHeader.isEmpty()||requiredHeader.equals(null))) {
+			    //validate size of file header and expected header
 		    	if(!(header.size() == requiredHeader.size())) {
 		    		throw new Exception("incorrect header");
 		    	}
